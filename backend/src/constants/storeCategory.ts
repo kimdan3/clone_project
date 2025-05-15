@@ -1,0 +1,9 @@
+export enum StoreCategory {
+  KOREAN = 'KOREAN',
+  JAPANESE = 'JAPANESE',
+  CHINESE = 'CHINESE',
+  CHICKEN = 'CHICKEN',
+  PIZZA = 'PIZZA',
+  ASIAN = 'ASIAN',
+  MEXICAN = 'MEXICAN',
+}
