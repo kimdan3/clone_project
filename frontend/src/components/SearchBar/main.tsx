@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { FaSearch } from 'react-icons/fa'
 
 export const MainSearchBar = ({ userName }: { userName?: string | null }) => {

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { FaThumbsDown, FaThumbsUp } from 'react-icons/fa'
-import { FaStar } from 'react-icons/fa'
 
 import { StarRating } from '@/components/common/StarRating'
 import { getDayDiff } from '@/lib/date'

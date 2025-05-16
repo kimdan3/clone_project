@@ -1,7 +1,5 @@
-import { useAtomValue } from 'jotai'
 import { useEffect } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
-import { useRouter as useNextRouter } from 'next/router'
 import { useSession } from 'next-auth/react'
 
 export const useAuthRedirect = () => {
