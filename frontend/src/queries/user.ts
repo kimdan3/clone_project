@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
+import { User } from '@/types/user'
 
 import { API_PATH } from '@/constants/apiConfig'
 
