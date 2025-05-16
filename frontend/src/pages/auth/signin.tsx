@@ -1,4 +1,4 @@
-import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
+import { GetServerSideProps } from 'next'
 import { getServerSession } from 'next-auth/next'
 import { BuiltInProviderType } from 'next-auth/providers'
 import {

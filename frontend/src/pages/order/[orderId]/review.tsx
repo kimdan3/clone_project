@@ -12,7 +12,6 @@ import { useOrder } from '@/queries/order'
 import { useSubmitReview } from '@/queries/review'
 import { useImageUpload } from '@/queries/upload'
 import { ReviewMenu } from '@/types/review'
-import { useAtom } from 'jotai'
 
 export default function OrderReview({ orderId }: { orderId: string }) {
   const { data } = useOrder(orderId)

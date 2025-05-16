@@ -1,4 +1,4 @@
-import { GetStaticPropsContext, NextPageContext } from 'next'
+import { GetStaticPropsContext } from 'next'
 
 import { CategoryTabs } from '@/components/CategoryFilter/category'
 import { CartButton } from '@/components/common/CartButton'

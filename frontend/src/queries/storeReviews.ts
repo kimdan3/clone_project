@@ -1,4 +1,4 @@
-import { useInfiniteQuery, useQuery } from '@tanstack/react-query'
+import { useInfiniteQuery } from '@tanstack/react-query'
 
 import { API_PATH } from '@/constants/apiConfig'
 import { ReviewSort } from '@/constants/review'

@@ -10,7 +10,6 @@ import {
 } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { Provider as JotaiProvider } from 'jotai'
-import { DevTools } from 'jotai-devtools'
 
 import '@/styles/globals.css'
 import { AuthRedirect } from '@/components/common/AuthRedirect'
@@ -42,7 +41,6 @@ export default function App({
             <JotaiProvider>
               <div className={inter.className}>
                 <AuthRedirect />
-                {/* <JotaiDevTools /> */}
                 <Component {...pageProps} />
               </div>
             </JotaiProvider>

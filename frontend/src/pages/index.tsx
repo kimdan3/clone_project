@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSession } from 'next-auth/react'
-import { useAtom } from 'jotai'
 
 import { CategoryFilters } from '@/components/CategoryFilter'
 import { BottomNav } from '@/components/common/BottomNav'

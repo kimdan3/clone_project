@@ -54,7 +54,7 @@ export default function Order() {
 
   const submitOrder = async () => {
     mutate(cart, {
-      onSuccess: (data) => {
+      onSuccess: () => {
         router.push('/history')
       },
       onError(error, variables, context) {
