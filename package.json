@@ -5,7 +5,10 @@
     "@types/react-dom": "^19.1.5"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.76.1",
+    "jotai": "^2.12.4",
     "mongodb": "^6.16.0",
-    "mongoose": "^8.14.3"
+    "mongoose": "^8.14.3",
+    "react-portal": "^4.3.0"
   }
 }
