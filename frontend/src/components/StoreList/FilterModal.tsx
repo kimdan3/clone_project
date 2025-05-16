@@ -1,6 +1,7 @@
+import { useAtom } from 'jotai'
 import { PropsWithChildren } from 'react'
-import { Portal } from 'react-portal'
 import { IoClose } from 'react-icons/io5'
+import { Portal } from 'react-portal'
 
 export const FilterModal = ({
   closeModal,

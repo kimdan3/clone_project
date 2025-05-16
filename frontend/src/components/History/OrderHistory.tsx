@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { KRW } from '@/lib/currency'
 import { getTotalPrice } from '@/lib/menu'
